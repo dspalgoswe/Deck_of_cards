@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    min-height: 100vh; /* Gör att kroppen fyller hela höjden */
+    position: relative; /* Nödvändigt för footer */
+    padding-bottom: 50px; /* Utrymme för footer */
+}
+
+header {
+    background-color: #7C4A4A; /* Rostrod färg */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.5em;
+    opacity: 0.8; /* Minska opacitet för underrubrik */
+}
+
+#cardImage {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #7C4A4A; /* Samma rostrod färg */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
